@@ -16,6 +16,32 @@ my $user = "root";
 my $password = "1234";
 my $dsn = "DBI:mysql:database=$database;host=$hostname;port=$port";
 
+
+sub gather_msgtag {
+    my $setid = shift;
+    my $sth = $dbh->prepare(  "select * from message_tags where setid = ? " );
+    $sth->execute( $setid );
+
+}
+
+sub gather_msgset {
+    my $setid = shift;
+    my $sth = $dbh->prepare(  "select * from messages where setid = ? " );
+    $sth->execute( $setid );
+    my $msgset = $sth->fetchall_hashref( 'id' );
+    $sth->finish;
+    map { Encode::_utf8_on($msgset->{$_}->{msgstr}) } keys %$msgset;
+
+    return { 
+        id => $setid,
+        content => { map {
+            $_->{lang} => $_->{msgstr}
+            } values $msgset  }
+    };
+}
+
+
+
 builder {
     # enable_if { $_[0]->{REMOTE_ADDR} eq '127.0.0.1' } "Plack::Middleware::ReverseProxy";
     mount "/" => builder {
@@ -30,12 +56,22 @@ builder {
             my $dbh = DBI->connect($dsn, $user, $password);
             my $sth = $dbh->prepare( "select * from messages where lang = ? and msgid = ? ; " );
             $sth->execute( $lang, $msgid );
-
             my $row = $sth->fetchrow_hashref() || { };
+            $sth->finish;
+
+            my $tags   = gather_msgtag($row->{setid});
+            my $msgset = gather_msgset($row->{setid});
+
+
+            my $result = {
+                id => $row->{setid},
+                tags => $tags,
+                content => $msgset,
+            };
+
             Encode::_utf8_on($row->{msgstr});
             my $response_text = encode_json( $row );
 
-            $sth->finish;
             $dbh->disconnect;
             return [ '400', [ 'Content-Type' => 'text/plain' ], [ $response_text ] ];
         }
