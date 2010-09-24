@@ -22,12 +22,10 @@ builder {
         sub {
             my $env = shift;
             my $req = Plack::Request->new($env);
-            my $params = $req->parameters;
 
+            my $params = $req->parameters;
             my $msgid  = $req->param('msgid');
             my $lang   = $req->param('lang');
-
-            use Data::Dumper; warn Dumper( $msgid, $lang );
 
             my $dbh = DBI->connect($dsn, $user, $password);
             my $sth = $dbh->prepare( "select * from messages where lang = ? and msgid = ? ; " );
