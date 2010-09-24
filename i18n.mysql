@@ -1,0 +1,16 @@
+
+DROP database IF EXISTS `i18n`;
+CREATE DATABASE i18n CHARACTER SET utf8 COLLATE utf8_general_ci;
+use i18n;
+
+create table messages (
+    id  integer auto_increment primary key,
+    msgid text,
+    lang   varchar(32),
+    msgstr text,
+    created_on timestamp default current_timestamp
+    -- created_by 
+    -- created_on
+);
+
+
