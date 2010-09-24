@@ -14,3 +14,4 @@ create table messages (
 );
 
 
+insert into messages ( lang , msgid , msgstr ) values ( 'zh_TW' , 'Hello' , '哈囉' );
