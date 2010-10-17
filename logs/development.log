@@ -1,0 +1,176 @@
+[93282]  core @0.000013> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[93282]  core @0.010098> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[93844]  core @0.000014> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[93844]  core @0.014861> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[93844]  core @0.000110> request: GET /texts/en_US/How Are You from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[93844] debug @0.000693> [hit #1] trying to match `/texts/en_US/How Are You' against /^\/$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[93844]  core @0.017005> [hit #1] response: 404 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96901]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96901]  core @0.009868> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96901]  core @0.000098> request: GET /texts/en_US/How Are You from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96901] debug @0.000412> [hit #1] trying to match `/texts/en_US/How Are You' against /^\/$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96901] debug @0.001328> [hit #1] trying to match `/texts/en_US/How Are You' against /^\/texts\/([^\/]+)\/([^\/]+)$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96901]  core @0.001515> [hit #1]   --> got en_US How Are You in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96901]  core @0.001664> [hit #1]   --> named tokens are: language content in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 98
+[96901]  core @0.019574> [hit #1] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96904]  core @0.000012> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96904]  core @0.010195> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96904]  core @0.000101> request: GET /texts/en_US/How Are You from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96904] debug @0.000411> [hit #1] trying to match `/texts/en_US/How Are You' against /^\/$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96904] debug @0.001401> [hit #1] trying to match `/texts/en_US/How Are You' against /^\/texts\/([^\/]+)\/([^\/]+)$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96904]  core @0.001525> [hit #1]   --> got en_US How Are You in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96904]  core @0.001624> [hit #1]   --> named tokens are: language content in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 98
+[96904]  core @0.008728> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96904]  core @0.000107> request: GET /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96904] debug @0.000632> [hit #2] trying to match `/texts' against /^\/$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96904] debug @0.001131> [hit #2] trying to match `/texts' against /^\/texts\/([^\/]+)\/([^\/]+)$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96904]  core @0.017643> [hit #2] response: 404 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96911]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96911]  core @0.010127> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96911]  core @0.000102> request: GET /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96911] debug @0.000412> [hit #1] trying to match `/texts' against /^\/$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96911] debug @0.001299> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96911]  core @0.001406> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96911]  core @0.008585> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96911]  core @0.000094> request: POST /texts/en_US from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96911] debug @0.000417> [hit #2] trying to match `/texts/en_US' against /^\/texts\/([^\/]+)$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96911]  core @0.001131> [hit #2]   --> got en_US in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96911]  core @0.001625> [hit #2]   --> named tokens are: language in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 98
+[96911]  core @0.002112> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96920]  core @0.000012> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96920]  core @0.010400> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96920]  core @0.000101> request: POST /texts/en_US from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96920] debug @0.000420> [hit #1] trying to match `/texts/en_US' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96920]  core @0.016446> [hit #1] response: 404 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96920]  core @0.000102> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96920] debug @0.000404> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96920]  core @0.001231> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96920]  core @0.018826> [hit #2] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96927]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96927]  core @0.009999> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96927]  core @0.000096> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96927] debug @0.000416> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96927]  core @0.001292> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96927]  core @0.018963> [hit #1] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96927]  core @0.000101> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96927] debug @0.000418> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96927]  core @0.001403> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96927]  core @0.003914> [hit #2] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96937]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96937]  core @0.010050> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96937]  core @0.000103> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96937] debug @0.000422> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96937]  core @0.001269> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96937]  core @0.016172> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96944]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96944]  core @0.010399> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96944]  core @0.000104> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96944] debug @0.000421> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96944]  core @0.001246> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96944]  core @0.018312> [hit #1] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96947]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96947]  core @0.010036> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96947]  core @0.000100> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96947] debug @0.000418> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96947]  core @0.001295> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96947]  core @0.018804> [hit #1] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96975]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96975]  core @0.009978> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96975]  core @0.000106> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96975] debug @0.000417> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96975]  core @0.001265> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96975]  core @0.018787> [hit #1] response:  in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96978]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96978]  core @0.010182> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96978]  core @0.000100> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96978] debug @0.000403> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96978]  core @0.001394> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96978]  core @0.014796> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96978]  core @0.000100> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96978] debug @0.000414> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96978]  core @0.001228> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96978]  core @0.001899> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96985]  core @0.000012> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96985]  core @0.009947> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96985]  core @0.000099> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96985] debug @0.000414> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96985]  core @0.001239> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96985]  core @0.014777> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96988]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96988]  core @0.010027> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96988]  core @0.000097> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96988] debug @0.000409> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96988]  core @0.001440> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96988]  core @0.011428> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96988]  core @0.000095> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96988] debug @0.000407> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96988]  core @0.001380> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96988]  core @0.001841> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96993]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96993]  core @0.010169> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96993]  core @0.000099> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96993] debug @0.000408> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96993]  core @0.021777> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96993]  core @0.030752> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96993]  core @0.000095> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96993] debug @0.000401> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96993]  core @0.001219> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96993]  core @0.001684> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96998]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[96998]  core @0.010070> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[96998]  core @0.000101> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96998] debug @0.000409> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96998]  core @0.001367> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96998]  core @0.012691> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96998]  core @0.000095> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96998] debug @0.000421> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96998]  core @0.001424> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96998]  core @0.002344> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[96998]  core @0.000094> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[96998] debug @0.000404> [hit #3] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[96998]  core @0.028118> [hit #3]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[96998]  core @0.029033> [hit #3] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97006]  core @0.000017> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[97006]  core @0.014079> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[97006]  core @0.000098> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97006] debug @0.000437> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97006]  core @0.001906> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97006]  core @0.009930> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97030]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[97030]  core @0.009998> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[97030]  core @0.000100> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97030] debug @0.000661> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97030]  core @0.001326> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97030]  core @0.023835> [hit #1] response: 500 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97030]  core @0.000094> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97030] debug @0.000405> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97030]  core @0.001313> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97030]  core @0.006217> [hit #2] response: 500 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97047]  core @0.000012> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[97047]  core @0.010718> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[97047]  core @0.000104> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97047] debug @0.000422> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97047]  core @0.001511> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97047]  core @0.002132> [hit #1] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97047]  core @0.000096> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97047] debug @0.000405> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97047]  core @0.001167> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97047]  core @0.001565> [hit #2] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97052]  core @0.000011> loading application I18nServer in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer.pm l. 179
+[97052]  core @0.010359> loading Standalone handler in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 29
+[97052]  core @0.000098> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97052] debug @0.000407> [hit #1] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97052]  core @0.001463> [hit #1]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97052]  core @0.020218> [hit #1] response: 500 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97052]  core @0.000098> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97052] debug @0.000403> [hit #2] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97052]  core @0.001295> [hit #2]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97052]  core @0.004894> [hit #2] response: 500 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97052]  core @0.000092> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97052] debug @0.000604> [hit #3] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97052]  core @0.001110> [hit #3]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97052]  core @0.005022> [hit #3] response: 500 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
+[97052]  core @0.000096> request: POST /texts from 127.0.0.1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 44
+[97052] debug @0.000405> [hit #4] trying to match `/texts' against /^\/texts$/ in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 73
+[97052]  core @0.001389> [hit #4]   --> got 1 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Route.pm l. 79
+[97052]  core @0.002363> [hit #4] response: 200 in /Users/gugod/perl5/perlbrew/perls/perl-5.12.2/lib/site_perl/5.12.2/Dancer/Handler.pm l. 102
